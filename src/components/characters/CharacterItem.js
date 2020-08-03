@@ -11,7 +11,10 @@ const CharacterItem = ({ item }) => {
 					<h1>{item.name}</h1>
 					<ul>
 						<li>
-							<strong>Actor Name: </strong> {item.portrayed}
+							<strong>Actor Name: </strong> {item.name}
+						</li>
+						<li>
+							<strong>Actor Portrayed Name: </strong> {item.portrayed}
 						</li>
 						<li>
 							<strong>Nickname:</strong> {item.nickname}
@@ -21,9 +24,6 @@ const CharacterItem = ({ item }) => {
 						</li>
 						<li>
 							<strong>Status:</strong> {item.status}
-						</li>
-						<li>
-							<strong>Occupation:</strong> {item.occupation}
 						</li>
 					</ul>
 				</div>
